@@ -5,14 +5,14 @@ with open('pypi_long_description.md', encoding='utf-8') as f:
 
 setuptools.setup(
     name = "scikit-learn-wglasso",
-    version = "0.0.1",
+    version = "0.0.3",
     description = "scikit-learn estimator for weighted glasso",
     long_description = long_description,
     long_description_content_type = "text/markdown",
     author = "Rush Han",
     packages = setuptools.find_packages(),
     install_requires = [
-        "sklearn"
+        "scikit-learn"
     ],
     url = "https://github.com/rushhan/weighted_glasso",
     classifiers = [
