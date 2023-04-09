@@ -5,7 +5,7 @@ with open('pypi_long_description.md', encoding='utf-8') as f:
 
 setuptools.setup(
     name = "scikit-learn-wglasso",
-    version = "0.0.3",
+    version = "0.0.4",
     description = "scikit-learn estimator for weighted glasso",
     long_description = long_description,
     long_description_content_type = "text/markdown",
